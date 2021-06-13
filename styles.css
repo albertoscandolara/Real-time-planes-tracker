@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.app-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container .header {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-container .header h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #0b416f;
+}
+
+.app-container .body {
+  flex: 1;
+  position: relative;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.app-container .body .style-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  top: 5px;
+  left: 5px;
+}
+
+.app-container .body .style-buttons button {
+  margin-bottom: 3px;
+}
+
+.app-container .body #map {
+  height: 100%;
+  width: 100%;
+}
+
+.marker {
+  background-image: url(../assets/images/airplane.svg);
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.pop-up {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop-up .pop-up-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.pop-up .pop-up-header span {
+  width: 100px;
+}
+
+.pop-up .pop-up-body {
+  display: flex;
+  flex-direction: column;
+}
