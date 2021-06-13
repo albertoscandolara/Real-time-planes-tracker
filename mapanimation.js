@@ -1,5 +1,5 @@
 const updateInterval = 5000; // ms
-const maxShowablePlanes = 20;
+const maxShowablePlanes = 100;
 const airplaneInfoUrl = "https://opensky-network.org/api/states/all";
 
 window.alert(
