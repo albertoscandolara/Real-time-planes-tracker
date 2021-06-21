@@ -1,0 +1,23 @@
+{
+  "name": "real_time_plane_tracker",
+  "version": "1.0.0",
+  "description": "A simple real time planes tracker that gets data from The OpenSky Network API",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertoscandolara/Real-time-planes-tracker.git"
+  },
+  "author": "Alberto Scandolara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertoscandolara/Real-time-planes-tracker/issues"
+  },
+  "homepage": "https://github.com/albertoscandolara/Real-time-planes-tracker#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}

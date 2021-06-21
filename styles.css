@@ -52,7 +52,7 @@ body {
 }
 
 .marker {
-  background-image: url(../assets/images/airplane.svg);
+  background-image: url(./assets/images/airplane.svg);
   background-size: cover;
   width: 15px;
   height: 15px;
