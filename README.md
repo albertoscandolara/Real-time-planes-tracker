@@ -18,10 +18,10 @@ Only a finite number of planes is shown not to have an overcrowded map.
 
 ## Installation
 To run this project:
-- Clone the repository
-- Open the bash inside the newly created project folder, type 'npm start' and fire the command 
-- Check on which port the project is running and copy it
-- In the browser searchbar, paste the copied url
+- clone the repository
+- open the bash inside the newly created project folder, type 'npm start' and fire the command 
+- check on which port the project is running and copy it
+- in the browser searchbar, paste the copied url
 
 ## Run built project
-To run an already built version of this project, go to this link](https://real-time-planes-tracker.netlify.app/)
+To run an already built version of this project, go to [this link](https://real-time-planes-tracker.netlify.app/)
